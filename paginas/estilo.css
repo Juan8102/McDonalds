@@ -1,0 +1,285 @@
+/* GENERAL */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* GENERAL */
+
+
+/* HEADER */
+
+/* VISTA-MOBILE */
+
+#header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: red;
+}
+
+#nav {
+    display: flex;
+
+    align-items: center;
+}
+
+#header__logo {
+    margin-left: 30px;
+    width: 65px;
+}
+
+.nav__list__container {
+    display: none;
+    list-style-type: none;
+}
+
+.nav__list__item {
+    display: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+    margin-left: 38px;
+}
+
+#nav__list__item__products {
+    display: none;
+    margin-left: 75px;
+}
+
+/* VISTA-MOBILE */
+
+
+/* VISTA-PC-TABLET */
+
+@media (min-width: 768px) {
+
+    .nav__list__item:hover {
+        color: #FFC72C;
+    }
+
+    #header {
+        display: flex;
+        height: 100px;
+        align-items: center;
+        background-color: red;
+        position: sticky;
+        top: 0px;
+    }
+
+    #nav {
+        display: flex;
+
+        align-items: center;
+    }
+
+    .nav__list__container {
+        list-style-type: none;
+    }
+
+    .nav__list__item {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+
+        margin-left: 38px;
+    }
+
+    #nav__list__item__products {
+        margin-left: 75px;
+    }
+
+    #header__logo {
+        margin-left: 60px;
+        width: 75px;
+    }
+
+}
+
+/* VISTA-PC-TABLET */
+
+/* HEADER */
+
+
+/* INDEX.html */
+
+/* VISTA-MOBILE */
+
+    #main-img__mobile {
+        width: 0%;
+    }
+
+@media (min-width: 320px) and (max-width: 767.9px) {
+    #main-img__mobile {
+        width: 100%;
+    }
+}
+
+/* VISTA-MOBILE */
+
+
+/* VISTA-PC-TABLET */
+
+    #main {
+        display: grid;
+        
+    }
+
+    #main-img__pc {
+        width: 0%;
+    }
+
+@media (min-width: 768px) {
+    #main-img__pc {
+        width: 100%;
+    }
+}
+
+/* VISTA-PC-TABLET */
+
+/* INDEX.html */
+
+
+/* APP.html */
+
+/* VISTA-MOBILE */
+
+    #app__main__container {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    #app__title {
+        display: grid;
+        justify-content: center;
+        margin: 40px;
+    }
+
+    .app__items {
+        height: 500px;
+        width: 480px;
+
+        border: solid black 2.5px;
+        border-radius: 8px;
+    
+        grid-template-columns: 480px;
+        grid-template-rows: 500px 500px;
+    }
+
+    #app__item__2 {
+        margin-top: 70px;
+    }
+
+/* VISTA-MOBILE */
+
+
+/* VISTA-TABLET */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #app__main__container {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    #app__title {
+        display: grid;
+        justify-content: center;
+        margin: 40px;
+    }
+
+    .app__items {
+        height: 500px;
+        width: 480px;
+
+        border: solid black 2.5px;
+        border-radius: 8px;
+    
+        grid-template-columns: 480px;
+        grid-template-rows: 500px 500px;
+    }
+
+    #app__item__2 {
+        margin-top: 70px;
+    }
+
+}
+
+/* VISTA-TABLET */
+
+
+/* VISTA-PC */
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+
+    #app__main__container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    #app__title {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+    }
+
+    .app__items {
+        height: 450px;
+        width: 430px;
+
+        border: solid black 2.5px;
+        border-radius: 8px;
+
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    #app__main__container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #app__title {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+    }
+    
+    .app__items {
+        height: 500px;
+        width: 480px;
+    
+        border: solid black 2.5px;
+        border-radius: 8px;
+    
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    
+}
+
+/* VISTA-PC */
+
+/* APP.html */

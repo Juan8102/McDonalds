@@ -13,6 +13,10 @@ img {
     max-width: 100%;
 }
 
+* {
+    box-sizing: content-box;
+}
+
 /* INICIO-HEADER */
 
 #header {
@@ -125,30 +129,24 @@ img {
         margin: 12px;
     }
 
+    .nav__list__item:hover {
+        color: #FFC72C;
+    }
+
     #nav__list__item__products {
         margin-left: 60px;
     }
 }
 
 @media (min-width: 1200px) {
-    
-    #header {
-        width: 100%;
-        height: 125px;
-    }
-    
-    #nav {
-        width: 100%;
-        height: 125px;
-    }
 
     #header__logo {
         width: 88px;
-        margin-left: 34px;
+        margin-left: 38px;
     }
 
     .nav__list__item {
-        font-size: 24px;
+        font-size: 23px;
     }
 
 }
@@ -158,7 +156,458 @@ img {
 
 /* INICIO-FOOTER */
 
+/* INICIO-ESTRUCTURA 1 */
 
+#footer--pc {
+    display: none;
+}
+
+#footer__politicas--center {
+    display: none;
+}
+
+#footer__redes__sociales__app__container--pc {
+    display: none;
+}
+
+#footer__app__container--pc {
+    display: none;
+}
+
+#copyright--pc {
+    display: none;
+}
+
+/* REDES SOCIALES */
+
+#footer__redes__sociales__container--mobile {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__link__redes__sociales--mobile {
+    margin: 10px;
+    margin-top: 30px;
+}
+
+#footer__link__instagram--mobile {
+    width: 30px;
+}
+
+#footer__link__twitter--mobile {
+    width: 32px;
+}
+
+#footer__link__youtube--mobile {
+    width: 39px;
+}
+
+#footer__link__facebook--mobile {
+    width: 14px;
+}
+
+/* REDES SOCIALES */
+
+/* APP */
+
+#footer__app__container--mobile {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+#app__store__link--mobile {
+    width: 90px;
+    margin: 16px;
+}
+
+#google__play__link--mobile {
+    width: 100px;
+    margin: 16px;
+}
+
+/* APP */
+
+#footer__line--mobile {
+    width: 100%;
+    border: solid rgba(0, 0, 0, 0.250) 1px;
+    position: relative;
+    top: 2px;
+}
+
+/* POLITICAS y COPYRIGHT */
+
+#politicas__container--mobile {
+    display: grid;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.footer__politicas__link--mobile {
+    display: flex;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+
+#copyright--mobile {
+    display: flex;
+    width: 100%;
+    height: 33px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#copyright__img--mobile {
+    width: 25px;
+    margin: 4px;
+}
+
+#copyright__text--mobile {
+    font-size: 16px;
+    margin: 4px;
+}
+
+/* POLITICAS y COPYRIGHT */
+
+/* FIN-ESTRUCTURA 1 */
+
+@media (min-width: 600px) {
+
+    /* DESHABILITO LA ESTRUCTURA 1 */
+
+    #footer--mobile {
+        display: none;
+    }
+
+    /* DESHABILITO LA ESTRUCTURA 1 */
+}
+
+/* HABILITANDO y MODIFICANDO LA ESTRUCTURA 2 */
+
+@media (min-width: 600px) {
+    
+    /* REDES SOCIALES */
+
+    .footer--pc {
+        display: flex;
+        width: 100%;
+        height: 65px;
+        justify-content: center;
+    }
+
+    #footer__redes__sociales__app__container--pc {
+        display: flex;
+        width: 50%;
+        height: 40px;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .footer__link__redes__sociales--pc {
+        margin: 10px;
+    }
+    
+    #footer__link__instagram--pc {
+        width: 26px;
+    }
+    
+    #footer__link__twitter--pc {
+        width: 28px;
+    }
+    
+    #footer__link__youtube--pc {
+        width: 35px;
+    }
+    
+    #footer__link__facebook--pc {
+        width: 13px;
+    }
+
+    /* REDES SOCIALES */
+
+    /* APP */
+
+    #footer__app__container--pc {
+        display: flex;
+        width: 50%;
+        height: 60px;
+        justify-content: end;
+        align-items: center;
+        margin-top: 9px;
+        margin-right: 42px;
+    }
+
+    #app__store__link--pc {
+        width: 85px;
+        margin: 6px;
+    }
+    
+    #google__play__link--pc {
+        width: 95px;
+        margin: 6px;
+    }
+
+    /* APP */
+    
+    #footer__line--pc {
+        width: 92%;
+        height: 1px;
+        border: solid rgba(0, 0, 0, 0.250) 1px;
+    }
+
+    #footer__line--center {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* POLITICAS y COPYRIGHT */
+
+    #politicas__container--pc {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__politicas__link--pc {
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.850);
+        text-decoration: none;
+        margin: 9px;
+    }
+
+    #footer__politicas--center {
+        display: flex;
+        justify-content: center;
+    }
+
+    #copyright__900px--pc {
+        display: none;
+    }
+
+    #copyright--pc {
+        display: flex;
+        width: 100%;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #copyright__img--pc {
+        width: 20px;
+        height: 20px;
+        margin: 2px;
+    }
+
+    #copyright__text--pc {
+        font-size: 12px;
+        margin: 2px;
+    }
+
+    /* POLITICAS y COPYRIGHT */
+
+}
+
+/* HABILITANDO y MODIFICANDO LA ESTRUCTURA 2 */
+
+@media (min-width: 900px) {
+
+    #copyright--pc {
+        display: none;
+    }
+
+    #footer__politicas--center {
+        display: flex;
+        justify-content: center;
+    }
+
+    #politicas__container--pc {
+        width: 70%;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .footer__politicas__link--pc {
+        font-size: 13px;
+    }
+
+    #copyright__900px--pc {
+        display: flex;
+        width: 20%;
+        justify-content: end;
+        align-items: center;
+    }
+
+    #copyright__text--pc {
+        font-size: 13px;
+    }
+}
+
+/* AUMENTOS DE TAMAÑO */
+
+@media (min-width: 1024px) {
+
+    .footer__politicas__link--pc {
+        font-size: 15px;
+    }
+
+    #copyright__text--pc {
+        font-size: 15px;
+    }
+
+    #copyright__img--pc {
+        width: 24px;
+        height: 24px;
+    }
+
+    #footer__line--pc {
+        width: 92%;
+        height: 1px;
+        border: solid rgba(0, 0, 0, 0.250) 1px;
+        position: relative;
+        top: 5px;
+    }
+
+    #footer__redes__sociales__app__container--pc {
+        display: flex;
+        width: 50%;
+        height: 40px;
+        align-items: center;
+        margin-top: 22px;
+        margin-left: 40px;
+    }
+
+    #footer__politicas--center {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .footer__link__redes__sociales--pc {
+        margin: 10px;
+    }
+    
+    #footer__link__instagram--pc {
+        width: 32px;
+    }
+    
+    #footer__link__twitter--pc {
+        width: 34px;
+    }
+    
+    #footer__link__youtube--pc {
+        width: 39px;
+    }
+    
+    #footer__link__facebook--pc {
+        width: 15px;
+    }
+
+    #app__store__link--pc {
+        width: 105px;
+        margin: 6px;
+    }
+    
+    #google__play__link--pc {
+        width: 115px;
+        margin: 6px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .footer__politicas__link--pc {
+        font-size: 16px;
+    }
+
+    #copyright__text--pc {
+        font-size: 16px;
+    }
+
+    #copyright__img--pc {
+        width: 24px;
+        height: 24px;
+    }
+
+    #footer__politicas--center {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+
+    #footer__redes__sociales__app__container--pc {
+        display: flex;
+        width: 50%;
+        height: 40px;
+        align-items: center;
+        margin-top: 22px;
+        margin-left: 60px;
+    }
+
+    .footer__link__redes__sociales--pc {
+        margin: 12px;
+    }
+    
+    #footer__link__instagram--pc {
+        width: 36px;
+    }
+    
+    #footer__link__twitter--pc {
+        width: 38px;
+    }
+    
+    #footer__link__youtube--pc {
+        width: 44px;
+    }
+    
+    #footer__link__facebook--pc {
+        width: 17px;
+    }
+
+    #app__store__link--pc {
+        width: 115px;
+        margin: 6px;
+    }
+    
+    #google__play__link--pc {
+        width: 125px;
+        margin: 6px;
+        margin-right: 20px;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    #app__store__link--pc {
+        margin: 6px;
+    }
+    
+    #google__play__link--pc {
+        margin-right: 36px;
+    }
+
+    #footer__link__instagram--pc {
+        margin-left: 18px;
+    }
+
+}
+
+/* AUMENTOS DE TAMAÑO */
 
 /* FIN-FOOTER */
 
@@ -167,7 +616,25 @@ img {
 
 /* INICIO-INDEX.html */
 
+#index__promocion__img--mobile {
+    width: 100%;
+}
 
+#index__promocion__img--pc {
+    display: none;
+}
+
+@media (min-width: 600px) {
+
+    #index__promocion__img--mobile {
+        display: none;
+    }
+
+    #index__promocion__img--pc {
+        display: block;
+        width: 100%;
+    }
+}
 
 /* FIN-INDEX.html */
 

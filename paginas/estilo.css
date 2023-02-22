@@ -435,7 +435,9 @@ img {
     }
 
     #politicas__container--pc {
+        display: flex;
         width: 70%;
+        height: 45px;
         align-items: center;
         justify-content: start;
     }

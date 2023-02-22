@@ -489,7 +489,7 @@ img {
         height: 40px;
         align-items: center;
         margin-top: 22px;
-        margin-left: 40px;
+        margin-left: 50px;
     }
 
     #footer__politicas--center {
@@ -526,6 +526,7 @@ img {
     #google__play__link--pc {
         width: 115px;
         margin: 6px;
+        margin-right: 14px;
     }
 
 }

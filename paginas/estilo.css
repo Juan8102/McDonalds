@@ -658,7 +658,165 @@ img {
 
 /* INICIO-EMPLEO.html */
 
+#empleo__main {
+    width: 100%;
+    height: 550px;
+}
 
+#empleo__title {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+#empleo__subtitle__container {
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    justify-content: center;
+}
+
+#empleo__subtitle {
+    width: 80%;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+#empleo__card__container {
+    display: flex;
+    width: 100%;
+    height: 360px;
+    justify-content: center;
+}
+
+#empleo__card__item {
+    display: grid;
+    width: 300px;
+    height: 360px;
+    border: solid 2px black;
+    border-radius: 6px;
+    justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: 170px 40px 80px 70px;
+}
+
+#empleo__img__container {
+    position: relative;
+    bottom: 2px;
+}
+
+#empleo__img {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+#empleo__card__title__container {
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+}
+
+#empleo__card__title {
+    font-size: 22px;
+}
+
+#empleo__card__subtitle__container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#empleo__card__subtitle {
+    width: 85%;
+    font-size: 16px;
+}
+
+#empleo__button__container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#empleo__button {
+    display: flex;
+    width: 90px;
+    height: 25px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+#empleo__button__link {
+    color: black;
+    text-decoration: none;
+}
+
+/* AUMENTO DE TAMAÑOS */
+
+@media (min-width: 768px) {
+
+    #empleo__main {
+        width: 100%;
+        height: 570px;
+    }
+
+    #empleo__subtitle {
+        margin: 8px;
+        font-size: 16px;
+    }
+
+    #empleo__card__container {
+        width: 100%;
+        height: 400px;
+    }
+    
+    #empleo__card__item {
+        width: 370px;
+        height: 400px;
+        grid-template-columns: 370px;
+        grid-template-rows: 200px 50px 60px 90px;
+    }
+    
+    #empleo__img__container {
+        width: 370px;
+    }
+    
+    #empleo__img {
+        width: 370px;
+    }
+    
+    #empleo__card__title__container {
+        margin-top: 10px;
+    }
+    
+    #empleo__card__title {
+        font-size: 23px;
+    }
+    
+    #empleo__card__subtitle__container {
+        margin-top: 4px;
+        width: 100%;
+    }
+    
+    #empleo__button {
+        width: 100px;
+        height: 28px;
+        border-radius: 6px;
+    }
+    
+    #empleo__button__link {
+        color: black;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+}
+
+/* AUMENTO DE TAMAÑOS */
 
 /* FIN-EMPLEO.html */
 

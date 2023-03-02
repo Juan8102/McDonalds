@@ -7,13 +7,5 @@
     "compile": "sass --watch scss:css"
   },
   "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Juan8102/McDonalds.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Juan8102/McDonalds/issues"
-  },
-  "homepage": "https://github.com/Juan8102/McDonalds#readme"
+  "license": "ISC"
 }

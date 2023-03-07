@@ -19,15 +19,26 @@
 #app__cards__container {
     display: grid;
     width: 100%;
-    height: 800px;
+    height: 700px;
     grid-template-columns: 300px;
     grid-template-rows: 350px 350px;
+    justify-content: center;
+
+    #app__cards__center {
+        display: grid;
+        width: 100%;
+        justify-content: center;
+    }
 }
 
-#app__cards__center {
-    display: grid;
+.app__card__img {
     width: 100%;
-    justify-content: center;
+    height: 200px;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
 }
 
 .app__button__link {
@@ -46,45 +57,36 @@
     margin-bottom: 18px;
     grid-template-columns: 300px;
     grid-template-rows: 200px 70px 80px;
-}
 
-#app__card__ios__text__container {
-    display: flex;
-    margin-top: 6px;
-    justify-content: center;
-}
-
-#app__card__ios__text {
-    font-size: 26px;
-    font-weight: bold;
+        #app__card__ios__text__container {
+            display: flex;
+            margin-top: 6px;
+            justify-content: center;
+        }
+        
+            #app__card__ios__text {
+                font-size: 26px;
+                font-weight: bold;
+            }
 }
 
 #app__button__ios__container {
     display: flex;
     justify-content: center;
-}
 
-#app__button__ios {
-    display: flex;
-    width: 120px;
-    height: 32px;
-    font-size: 20px;
-    border-radius: 6px;
-    justify-content: center;
-    align-items: center;
+
+    #app__button__ios {
+        display: flex;
+        width: 120px;
+        height: 32px;
+        font-size: 20px;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* FIN-iOS */
-
-.app__card__img {
-    width: 100%;
-    height: 200px;
-    position: relative;
-    bottom: 2px;
-    right: 1px;
-    border-top-right-radius: 6px;
-    border-top-left-radius: 6px;
-}
 
 /* INICIO-ANDROID */
 
@@ -95,32 +97,32 @@
     margin-bottom: 18px;
     grid-template-columns: 300px;
     grid-template-rows: 200px 70px 80px;
-}
 
-#app__card__android__text__container {
-    display: flex;
-    margin-top: 6px;
-    justify-content: center;
-}
-
-#app__card__android__text {
-    font-size: 26px;
-    font-weight: bold;
+        #app__card__android__text__container {
+            display: flex;
+            margin-top: 6px;
+            justify-content: center;
+        }
+        
+            #app__card__android__text {
+                font-size: 26px;
+                font-weight: bold;
+            }
 }
 
 #app__button__android__container {
     display: flex;
     justify-content: center;
-}
 
-#app__button__android {
-    display: flex;
-    width: 120px;
-    height: 32px;
-    font-size: 20px;
-    border-radius: 6px;
-    justify-content: center;
-    align-items: center;
+        #app__button__android {
+            display: flex;
+            width: 120px;
+            height: 32px;
+            font-size: 20px;
+            border-radius: 6px;
+            justify-content: center;
+            align-items: center;
+        }
 }
 
 /* FIN-ANDROID */
@@ -136,7 +138,7 @@
     
     #app__cards__container {
         width: 100%;
-        height: 1000px;
+        height: 350px;
         grid-template-columns: 310px 310px;
         grid-template-rows: 350px;
     }
@@ -175,21 +177,15 @@
     
     #app__cards__container {
         width: 100%;
-        height: 1000px;
+        height: 420px;
         grid-template-columns: 390px 390px;
         grid-template-rows: 420px;
-    }
 
-    #app__card__android {
-        margin: 10px;
-        grid-template-columns: 370px;
-        grid-template-rows: 260px 80px 80px;
-    }
-
-    #app__card__ios {
-        margin: 10px;
-        grid-template-columns: 370px;
-        grid-template-rows: 260px 80px 80px;
+            #app__card__android {
+                margin: 10px;
+                grid-template-columns: 370px;
+                grid-template-rows: 260px 80px 80px;
+            }
     }
 
     .app__card__img {
@@ -200,6 +196,12 @@
         right: 1px;
         border-top-right-radius: 6px;
         border-top-left-radius: 6px;
+    }
+
+    #app__card__ios {
+        margin: 10px;
+        grid-template-columns: 370px;
+        grid-template-rows: 260px 80px 80px;
     }
     
     #app__button__android {

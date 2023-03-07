@@ -38,6 +38,202 @@
     }
 }
 
+#index__card__container {
+    display: grid;
+    width: 100%;
+    height: 2250px;
+    justify-content: center;
+}
+
+.index__card {
+    display: grid;
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 6px;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 145px;
+}
+
+.index__card__subtitle__container {
+    display: grid;
+    width: 300px;
+    height: 160px;
+    padding: 10px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.index__card__subtitle {
+    font-size: 14px;
+    text-align: center;
+}
+
+#index__card__container__1 {
+    margin-top: 14px;
+}
+
+.index__card__img {
+    position: relative;
+    bottom: 1px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+/* AUMENTO DE TAMAÑOS */
+
+@media (min-width: 768px) {
+
+    #index__card__container--center {
+        display: grid;
+        width: 100%;
+        height: 1210px;
+    }
+
+    #index__card__container {
+        display: grid;
+        width: 100%;
+        height: 1200px;
+        justify-content: space-evenly;
+        align-content: space-around;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 160px 160px 160px;
+        position: relative;
+        bottom: 80px;
+    }
+
+    #index__card__container__1 {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    #index__card__container--center {
+        width: 100%;
+        height: 1310px;
+
+        #index__card__container {
+            width: 100%;
+            height: 1300px;
+            grid-template-columns: 380px 380px;
+            grid-template-rows: 250px 250px 250px;
+            margin-top: 24px;
+    
+            .index__card {
+                width: 400px;
+                height: 380px;
+                grid-template-columns: 400px;
+                grid-template-rows: 240px 130px;
+                
+                .index__card__img__container {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .index__card__img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .index__card__subtitle__container {
+        width: 100%;
+
+        .index__card__subtitle {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #index__card__container--center {
+        width: 100%;
+        height: 1550px;
+        
+        #index__card__container {
+            width: 100%;
+            height: 1500px;
+            grid-template-columns: 500px 500px;
+            margin-top: 24px;
+    
+            .index__card {
+                width: 500px;
+                height: 450px;
+                grid-template-columns: 500px;
+                grid-template-rows: 310px 140px;
+                
+                .index__card__img__container {
+                    width: 100%;
+                    height: 100%;
+
+                        .index__card__img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                }
+            }
+        }
+    }
+
+    .index__card__subtitle__container {
+        width: 100%;
+
+        .index__card__subtitle {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+
+    #index__card__container--center {
+        width: 100%;
+        height: 1700px;
+        
+        #index__card__container {
+            width: 100%;
+            height: 1600px;
+            grid-template-columns: 600px 600px;
+            margin-top: 24px;
+    
+            .index__card {
+                width: 600px;
+                height: 500px;
+                grid-template-columns: 600px;
+                grid-template-rows: 350px 150px;
+                
+                .index__card__img__container {
+                    width: 100%;
+                    height: 100%;
+
+                        .index__card__img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                }
+            }
+        }
+    }
+
+    .index__card__subtitle__container {
+        width: 100%;
+
+        .index__card__subtitle {
+            font-size: 19px;
+        }
+    }
+}
+
+/* AUMENTO DE TAMAÑOS */
+
 /* FIN-INDEX.html */
 
 

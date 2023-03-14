@@ -502,334 +502,6 @@ img {
 /* FIN-FOOTER */
 /* GLOBALES */
 /* PÁGINAS */
-/* INICIO-APP.html */
-/* INICIO-GENERAL */
-#app__main {
-  width: 100%;
-  height: 800px;
-}
-
-#app__title__container {
-  display: flex;
-  width: 100%;
-  height: 80px;
-  margin-top: 10px;
-  justify-content: center;
-  align-items: center;
-}
-
-#app__cards__container {
-  display: grid;
-  width: 100%;
-  height: 700px;
-  grid-template-columns: 300px;
-  grid-template-rows: 350px 350px;
-  justify-content: center;
-}
-#app__cards__container #app__cards__center {
-  display: grid;
-  width: 100%;
-  justify-content: center;
-}
-
-.app__card__img {
-  width: 100%;
-  height: 200px;
-  position: relative;
-  bottom: 2px;
-  right: 2px;
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px;
-}
-
-.app__button__link {
-  color: black;
-  text-decoration: none;
-}
-
-/* FIN-GENERAL */
-/* INICIO-iOS */
-#app__card__ios {
-  display: grid;
-  border: solid 2px black;
-  border-radius: 6px;
-  margin-bottom: 18px;
-  grid-template-columns: 300px;
-  grid-template-rows: 200px 70px 80px;
-}
-#app__card__ios #app__card__ios__text__container {
-  display: flex;
-  margin-top: 6px;
-  justify-content: center;
-}
-#app__card__ios #app__card__ios__text {
-  font-size: 26px;
-  font-weight: bold;
-}
-
-#app__button__ios__container {
-  display: flex;
-  justify-content: center;
-}
-#app__button__ios__container #app__button__ios {
-  display: flex;
-  width: 120px;
-  height: 32px;
-  font-size: 20px;
-  border-radius: 6px;
-  justify-content: center;
-  align-items: center;
-}
-
-/* FIN-iOS */
-/* INICIO-ANDROID */
-#app__card__android {
-  display: grid;
-  border: solid 2px black;
-  border-radius: 6px;
-  margin-bottom: 18px;
-  grid-template-columns: 300px;
-  grid-template-rows: 200px 70px 80px;
-}
-#app__card__android #app__card__android__text__container {
-  display: flex;
-  margin-top: 6px;
-  justify-content: center;
-}
-#app__card__android #app__card__android__text {
-  font-size: 26px;
-  font-weight: bold;
-}
-
-#app__button__android__container {
-  display: flex;
-  justify-content: center;
-}
-#app__button__android__container #app__button__android {
-  display: flex;
-  width: 120px;
-  height: 32px;
-  font-size: 20px;
-  border-radius: 6px;
-  justify-content: center;
-  align-items: center;
-}
-
-/* FIN-ANDROID */
-/* AUMENTO DE TAMAÑOS */
-@media (min-width: 768px) {
-  #app__main {
-    width: 100%;
-    height: 440px;
-  }
-  #app__cards__container {
-    width: 100%;
-    height: 350px;
-    grid-template-columns: 310px 310px;
-    grid-template-rows: 350px;
-  }
-  #app__card__android {
-    margin: 10px;
-    grid-template-columns: 290px;
-    grid-template-rows: 200px 70px 80px;
-  }
-  #app__card__ios {
-    margin: 10px;
-    grid-template-columns: 290px;
-    grid-template-rows: 200px 70px 80px;
-  }
-  #app__button__android {
-    width: 110px;
-    height: 32px;
-    font-size: 18px;
-  }
-  #app__button__ios {
-    width: 110px;
-    height: 32px;
-    font-size: 18px;
-  }
-}
-@media (min-width: 1400px) {
-  #app__main {
-    width: 100%;
-    height: 540px;
-  }
-  #app__cards__container {
-    width: 100%;
-    height: 420px;
-    grid-template-columns: 390px 390px;
-    grid-template-rows: 420px;
-  }
-  #app__cards__container #app__card__android {
-    margin: 10px;
-    grid-template-columns: 370px;
-    grid-template-rows: 260px 80px 80px;
-  }
-  .app__card__img {
-    width: 100%;
-    height: 260px;
-    position: relative;
-    bottom: 2px;
-    right: 1px;
-    border-top-right-radius: 6px;
-    border-top-left-radius: 6px;
-  }
-  #app__card__ios {
-    margin: 10px;
-    grid-template-columns: 370px;
-    grid-template-rows: 260px 80px 80px;
-  }
-  #app__button__android {
-    width: 140px;
-    height: 38px;
-    font-size: 22px;
-  }
-  #app__button__ios {
-    width: 140px;
-    height: 38px;
-    font-size: 22px;
-  }
-}
-/* AUMENTO DE TAMAÑOS */
-/* FIN-APP.html */
-/* INICIO-EMPLEO.html */
-#empleo__main {
-  width: 100%;
-  height: 550px;
-}
-
-#empleo__title {
-  display: flex;
-  width: 100%;
-  height: 40px;
-  margin-top: 12px;
-  margin-bottom: 10px;
-  justify-content: center;
-}
-
-#empleo__subtitle__container {
-  display: flex;
-  width: 100%;
-  font-size: 15px;
-  justify-content: center;
-}
-#empleo__subtitle__container #empleo__subtitle {
-  margin: 12px;
-  font-size: 15px;
-}
-
-#empleo__card__container {
-  display: flex;
-  width: 100%;
-  height: 360px;
-  justify-content: center;
-}
-#empleo__card__container #empleo__card__item {
-  display: grid;
-  width: 300px;
-  height: 360px;
-  border: solid 2px black;
-  border-radius: 6px;
-  justify-content: center;
-  grid-template-columns: 300px;
-  grid-template-rows: 170px 40px 80px 70px;
-}
-
-#empleo__img__container {
-  position: relative;
-  bottom: 2px;
-}
-#empleo__img__container #empleo__img {
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px;
-}
-
-#empleo__card__title__container {
-  display: flex;
-  margin-top: 8px;
-  justify-content: center;
-}
-#empleo__card__title__container #empleo__card__title {
-  font-size: 22px;
-}
-
-#empleo__card__subtitle__container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-#empleo__card__subtitle__container #empleo__card__subtitle {
-  width: 85%;
-  font-size: 16px;
-}
-
-#empleo__button__container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-#empleo__button__container #empleo__button {
-  display: flex;
-  width: 90px;
-  height: 25px;
-  border-radius: 6px;
-  justify-content: center;
-  align-items: center;
-}
-#empleo__button__container #empleo__button__link {
-  color: black;
-  text-decoration: none;
-}
-
-/* AUMENTO DE TAMAÑOS */
-@media (min-width: 768px) {
-  #empleo__main {
-    width: 100%;
-    height: 570px;
-  }
-  #empleo__subtitle {
-    margin: 8px;
-    font-size: 16px;
-  }
-  #empleo__card__container {
-    width: 100%;
-    height: 400px;
-  }
-  #empleo__card__container #empleo__card__item {
-    width: 370px;
-    height: 400px;
-    grid-template-columns: 370px;
-    grid-template-rows: 200px 50px 60px 90px;
-  }
-  #empleo__img__container {
-    width: 370px;
-  }
-  #empleo__img__container #empleo__img {
-    width: 370px;
-  }
-  #empleo__card__title__container {
-    margin-top: 10px;
-  }
-  #empleo__card__title__container #empleo__card__title {
-    font-size: 23px;
-  }
-  #empleo__card__subtitle__container {
-    margin-top: 4px;
-    width: 100%;
-  }
-  #empleo__button {
-    width: 100px;
-    height: 28px;
-    border-radius: 6px;
-  }
-  #empleo__button #empleo__button__link {
-    font-size: 17px;
-  }
-}
-/* AUMENTO DE TAMAÑOS */
-/* FIN-EMPLEO.html */
-/* PÁGINAS */
 /* INICIO-INDEX.html */
 #index__promocion__img--mobile {
   width: 100%;
@@ -1015,9 +687,380 @@ img {
 }
 /* AUMENTO DE TAMAÑOS */
 /* FIN-INDEX.html */
+/* INICIO-APP.html */
+/* INICIO-GENERAL */
+#app__main {
+  width: 100%;
+  height: 800px;
+}
+
+#app__title__container {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#app__cards__container {
+  display: grid;
+  width: 100%;
+  height: 700px;
+  grid-template-columns: 300px;
+  grid-template-rows: 350px 350px;
+  justify-content: center;
+}
+#app__cards__container #app__cards__center {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
+
+.app__card__img {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  bottom: 2px;
+  right: 2px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.app__button__link {
+  color: black;
+  text-decoration: none;
+}
+
+/* FIN-GENERAL */
+/* INICIO-iOS */
+#app__card__ios {
+  display: grid;
+  border: solid 2px black;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  grid-template-columns: 300px;
+  grid-template-rows: 200px 70px 80px;
+}
+#app__card__ios #app__card__ios__text__container {
+  display: flex;
+  margin-top: 6px;
+  justify-content: center;
+}
+#app__card__ios #app__card__ios__text {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#app__button__ios__container {
+  display: flex;
+  justify-content: center;
+}
+#app__button__ios__container #app__button__ios {
+  display: flex;
+  width: 120px;
+  height: 32px;
+  font-size: 20px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FIN-iOS */
+/* INICIO-ANDROID */
+#app__card__android {
+  display: grid;
+  border: solid 2px black;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  grid-template-columns: 300px;
+  grid-template-rows: 200px 70px 80px;
+}
+#app__card__android #app__card__android__text__container {
+  display: flex;
+  margin-top: 6px;
+  justify-content: center;
+}
+#app__card__android #app__card__android__text {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#app__button__android__container {
+  display: flex;
+  justify-content: center;
+}
+#app__button__android__container #app__button__android {
+  display: flex;
+  width: 120px;
+  height: 32px;
+  font-size: 20px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FIN-ANDROID */
+/* AUMENTO DE TAMAÑOS */
+@media (min-width: 768px) {
+  #app__main {
+    width: 100%;
+    height: 440px;
+  }
+  #app__cards__container {
+    width: 100%;
+    height: 350px;
+    grid-template-columns: 310px 310px;
+    grid-template-rows: 350px;
+  }
+  #app__card__android {
+    margin: 10px;
+    grid-template-columns: 290px;
+    grid-template-rows: 200px 70px 80px;
+  }
+  #app__card__ios {
+    margin: 10px;
+    grid-template-columns: 290px;
+    grid-template-rows: 200px 70px 80px;
+  }
+  #app__button__android {
+    width: 110px;
+    height: 32px;
+    font-size: 18px;
+    background-color: azure;
+  }
+  #app__button__android:hover {
+    transition: 1.5s;
+    transform: scale(1.2, 1.2);
+  }
+  #app__button__ios {
+    width: 110px;
+    height: 32px;
+    font-size: 18px;
+    background-color: azure;
+  }
+  #app__button__ios:hover {
+    transition: 1.5s;
+    transform: scale(1.2, 1.2);
+  }
+}
+@media (min-width: 1400px) {
+  #app__main {
+    width: 100%;
+    height: 540px;
+  }
+  #app__cards__container {
+    width: 100%;
+    height: 420px;
+    grid-template-columns: 390px 390px;
+    grid-template-rows: 420px;
+  }
+  #app__cards__container #app__card__android {
+    margin: 10px;
+    grid-template-columns: 370px;
+    grid-template-rows: 260px 80px 80px;
+  }
+  .app__card__img {
+    width: 100%;
+    height: 260px;
+    position: relative;
+    bottom: 2px;
+    right: 1px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  #app__card__ios {
+    margin: 10px;
+    grid-template-columns: 370px;
+    grid-template-rows: 260px 80px 80px;
+  }
+  #app__button__android {
+    width: 140px;
+    height: 38px;
+    font-size: 22px;
+  }
+  #app__button__ios {
+    width: 140px;
+    height: 38px;
+    font-size: 22px;
+  }
+}
+/* AUMENTO DE TAMAÑOS */
+/* FIN-APP.html */
+/* INICIO-EMPLEO.html */
+#empleo__main {
+  width: 100%;
+  height: 550px;
+}
+
+#empleo__title {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+#empleo__subtitle__container {
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  justify-content: center;
+}
+#empleo__subtitle__container #empleo__subtitle {
+  margin: 12px;
+  font-size: 15px;
+}
+
+#empleo__card__container {
+  display: flex;
+  width: 100%;
+  height: 360px;
+  justify-content: center;
+}
+#empleo__card__container #empleo__card__item {
+  display: grid;
+  width: 300px;
+  height: 360px;
+  border: solid 2px black;
+  border-radius: 6px;
+  justify-content: center;
+  grid-template-columns: 300px;
+  grid-template-rows: 170px 40px 80px 70px;
+}
+
+#empleo__img__container {
+  position: relative;
+  bottom: 2px;
+}
+#empleo__img__container #empleo__img {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+#empleo__card__title__container {
+  display: flex;
+  margin-top: 8px;
+  justify-content: center;
+}
+#empleo__card__title__container #empleo__card__title {
+  font-size: 22px;
+}
+
+#empleo__card__subtitle__container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#empleo__card__subtitle__container #empleo__card__subtitle {
+  width: 85%;
+  font-size: 16px;
+}
+
+#empleo__button__container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#empleo__button__container #empleo__button {
+  display: flex;
+  width: 100px;
+  height: 28px;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+#empleo__button__container #empleo__button__link {
+  color: black;
+  text-decoration: none;
+}
+
+/* AUMENTO DE TAMAÑOS */
+@media (min-width: 768px) {
+  #empleo__main {
+    width: 100%;
+    height: 570px;
+  }
+  #empleo__subtitle {
+    margin: 8px;
+    font-size: 16px;
+  }
+  #empleo__card__container {
+    width: 100%;
+    height: 400px;
+  }
+  #empleo__card__container #empleo__card__item {
+    width: 370px;
+    height: 400px;
+    grid-template-columns: 370px;
+    grid-template-rows: 200px 50px 60px 90px;
+  }
+  #empleo__img__container {
+    width: 370px;
+  }
+  #empleo__img__container #empleo__img {
+    width: 370px;
+  }
+  #empleo__card__title__container {
+    margin-top: 10px;
+  }
+  #empleo__card__title__container #empleo__card__title {
+    font-size: 23px;
+  }
+  #empleo__card__subtitle__container {
+    margin-top: 4px;
+    width: 100%;
+  }
+  #empleo__button {
+    width: 110px;
+    height: 32px;
+    border-radius: 6px;
+    background-color: azure;
+  }
+  #empleo__button:hover {
+    transition: 1.5s;
+    transform: scale(1.2, 1.2);
+  }
+  #empleo__button #empleo__button__link {
+    font-size: 17px;
+  }
+}
+/* AUMENTO DE TAMAÑOS */
+/* FIN-EMPLEO.html */
+/* PÁGINAS */
 /* INICIO-PRODUCTOS.html */
 /* FIN-PRODUCTOS.html */
 /* INICIO-CONTACTO.html */
+#contact__text__container {
+  display: grid;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  grid-template-columns: 90%;
+  grid-template-rows: 55px 200px;
+  margin-top: 10px;
+}
+#contact__text__container .contact__text--center {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
+
+#contact__title__text {
+  font-size: 37px;
+  font-weight: 500;
+}
+
+#contact__subtitle {
+  display: grid;
+  justify-content: center;
+}
+#contact__subtitle #contact__subtitle__text {
+  text-align: center;
+}
+
 /* FIN-CONTACTO.html */
 
 /*# sourceMappingURL=style.css.map */

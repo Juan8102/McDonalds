@@ -22,7 +22,7 @@
 
         <!-- HEADER -->
         <header id="header">
-            <a href="../index.html"><img src="../mult/mcdonalds-logo.ico" alt="McDonald's Logo" id="header__logo"></a>
+            <a href="../index.html"><img class="animate__animated animate__fadeInDown" src="../mult/mcdonalds-logo.ico" alt="McDonald's Logo" id="header__logo"></a>
             <nav id="nav">
                 <div class="dropdown">
                     <a class="btn dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -46,7 +46,67 @@
 
         <!-- MAIN -->
         <main>
+            <div id="contact__text__container">
+                <div class="contact__text--center" id="contact__title">
+                    <h2 id="contact__title__text">Contacto</h2>
+                </div>
+                <div class="contact__text--center" id="contact__subtitle">
+                    <p id="contact__subtitle__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit totam, quam veniam cumque quod omnis nam soluta quas suscipit nemo velit molestias reiciendis deserunt debitis provident? Dicta omnis voluptatem eum.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <p class="contact__text--center" id="contact__form__subtitle">
+
+                </p>
+            </div>
             
+            <div id="contact__form__container">
+
+                <!-- NOMBRE -->
+                <form>
+                    <label for="nombre">*Nombre</label>	
+                    <input type="text" name="nombre" required/>
+                </form>
+
+                <!-- APELLIDO -->
+                <form>
+                    <label for="apellido*">*Apellido</label>	
+                    <input type="text" name="apellido" required/>
+                </form>
+
+                <!-- EMAIL -->
+                <form>
+                    <label for="email">*Email</label>
+                    <input type="email" name="email" required/>
+                </form>
+
+                <!-- TELÉFONO -->
+                <form>
+                    <label for="telefono">*Teléfono</label>
+                    <input type="number" name="telefono" required/>
+                </form>
+
+                <!-- CIUDAD -->
+                <form>
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" name="ciudad"/>
+                </form>
+
+                <!-- ASUNTO -->
+                <form>
+                    <label for="asunto">*Asunto</label>
+                    <input type="text" name="asunto" required/>
+                </form>
+
+                <!-- MENSAJE -->
+                <form>
+                    <label for="mensaje">*Mensaje</label>
+                    <input type="text" name="mensaje" required/>
+                </form>
+            </div>
         </main>
         
         <!-- FOOTER MOBILE -->

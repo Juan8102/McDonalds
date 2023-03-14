@@ -1,0 +1,72 @@
+/* INICIO-CONTACTO.html */
+
+#contact__text__container {
+    display: grid;
+    width: 100%;
+    height: 255px;
+    justify-content: center;
+    grid-template-columns: 90%;
+    grid-template-rows: 55px 200px;
+    margin-top: 10px;
+
+    .contact__text--center {
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+#contact__title__text {
+    font-size: 37px;
+    font-weight: 500;
+}
+
+#contact__subtitle {
+    display: grid;
+    justify-content: center;
+
+    #contact__subtitle__text {
+        text-align: center;
+    }
+}
+
+#contact__form__container__center {
+    display: flex;
+    justify-content: center;
+}
+
+#contact__form__container {
+    display: grid;
+    width: 75%;
+    height: 760px;
+    justify-content: center;
+    align-content: space-between;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px;
+}
+
+.contact__form {
+    display: grid;
+    width: 100%;
+    height: 80px;
+}
+
+@media (min-width: 600px) {
+
+    #contact__text__container {
+        height: 180px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    #contact__form__container {
+        height: 700px;
+    }
+
+    #contact__text__container {
+        height: 160px;
+    }
+}
+
+/* FIN-CONTACTO.html */

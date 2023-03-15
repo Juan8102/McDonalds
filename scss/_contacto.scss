@@ -1,8 +1,13 @@
 /* INICIO-CONTACTO.html */
 
+#contact__text__container--center {
+    display: flex;
+    justify-content: center;
+}
+
 #contact__text__container {
     display: grid;
-    width: 100%;
+    width: 75%;
     height: 255px;
     justify-content: center;
     grid-template-columns: 90%;
@@ -30,6 +35,16 @@
     }
 }
 
+#contact__form__subtitle__container {
+    position: relative;
+    top: 50px;
+}
+
+#contact__form__subtitle {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 #contact__form__container__center {
     display: flex;
     justify-content: center;
@@ -38,7 +53,7 @@
 #contact__form__container {
     display: grid;
     width: 75%;
-    height: 760px;
+    height: 890px;
     justify-content: center;
     align-content: space-between;
     grid-template-columns: 100%;
@@ -61,11 +76,13 @@
 @media (min-width: 1024px) {
 
     #contact__form__container {
-        height: 700px;
+        height: 820px;
+        position: relative;
+        bottom: 28px;
     }
 
     #contact__text__container {
-        height: 160px;
+        height: 140px;
     }
 }
 
